@@ -1,4 +1,4 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: halloween --default, autumn --prefersdark, forest;
-}
+  themes: forest --default, autumn --prefersdark, forest;
+} 

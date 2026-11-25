@@ -4,8 +4,7 @@ import { NavLink } from 'react-router'
 export const about = () => {
   return (
     <div>
-        <NavLink to="/" className="btn btn-primary">
-        Ke Home Page</NavLink>
+      <h1>About</h1>
     </div>
   )
 }

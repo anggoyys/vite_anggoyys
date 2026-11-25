@@ -9,7 +9,7 @@ const ThemeSwap = () => {
     }
 
     useEffect(() => {
-        document.documentElement.dataset.theme = isDark ? 'autumn' : 'halloween'
+        document.documentElement.dataset.theme = isDark ? 'autumn' : 'forest'
     }, [isDark])
 
     if(isDark){

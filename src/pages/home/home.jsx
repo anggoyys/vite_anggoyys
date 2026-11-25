@@ -4,10 +4,7 @@ import { NavLink } from 'react-router'
 export const home = () => {
   return (
     <div>
-        <h1>HOMEPAGE</h1>
-
-        <NavLink to="/about" className="btn btn-primary">
-        Ke About Page</NavLink>
+        <h1>Homepage</h1>
     </div>
   )
 }
